@@ -28,7 +28,11 @@
     "serial": true,
     "verbose": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0"
+  },
   "devDependencies": {
     "ava": "^0.13.0",
     "gulp": "^3.9.1",
