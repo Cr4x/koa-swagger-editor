@@ -9,3 +9,5 @@ gulp.task('eslint', function () {
 		.pipe(eslint.format())
 		.pipe(eslint.failAfterError());
 });
+
+gulp.task('test', ['eslint']);
