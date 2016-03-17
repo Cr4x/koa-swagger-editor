@@ -2,7 +2,7 @@
   "name": "koa-swagger-editor",
   "version": "0.0.1",
   "description": "A koa middleware, to serve api files and settings for swagger-editor",
-  "main": "index.js",
+  "main": "lib/",
   "scripts": {
     "test": "NODE_ENV=test nyc ava",
     "posttest": "NODE_ENV=test nyc report --reporter=lcovonly --reporter=teamcity"
