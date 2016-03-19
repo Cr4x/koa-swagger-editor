@@ -4,8 +4,8 @@
   "description": "A koa middleware, to serve api files and settings for swagger-editor",
   "main": "lib/",
   "scripts": {
-    "test": "NODE_ENV=test gulp test && nyc ava",
-    "posttest": "NODE_ENV=test nyc report --reporter=lcovonly --reporter=teamcity"
+    "test": "gulp test && nyc ava",
+    "report": "nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,7 @@
     "files": [
       "**/*.spec.js"
     ],
-    "failFast": false,
-    "serial": true,
+    "failFast": true,
     "verbose": true
   },
   "dependencies": {
