@@ -31,3 +31,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Swagger-editor dist directory
+swagger-editor
+
+# Pretest file swagger-editor.zip
+swagger-editor.zip
+
+# nyc report directory
+.nyc_output
