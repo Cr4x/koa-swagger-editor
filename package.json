@@ -4,7 +4,7 @@
   "description": "A koa middleware, to serve api files and settings for swagger-editor",
   "main": "lib/",
   "scripts": {
-    "pretest": "if [ ! -d \"./swagger-editor\" ]; wget https://github.com/swagger-api/swagger-editor/releases/download/v2.9.9/swagger-editor.zip; unzip swagger-editor.zip -d swagger-editor; rm swagger-editor.zip; fi ",
+    "pretest": "if [ ! -d \"./swagger-editor\" ]; then wget https://github.com/swagger-api/swagger-editor/releases/download/v2.9.9/swagger-editor.zip; unzip swagger-editor.zip -d swagger-editor; rm swagger-editor.zip; fi ",
     "test": "gulp test && nyc ava",
     "report": "nyc report --reporter=html"
   },
