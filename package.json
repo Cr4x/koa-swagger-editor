@@ -1,6 +1,6 @@
 {
   "name": "koa-swagger-editor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A koa middleware, to serve api files and settings for swagger-editor",
   "main": "lib/",
   "scripts": {
